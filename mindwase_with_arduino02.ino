@@ -1,3 +1,25 @@
+////////////////////////////////////////////////////////////////////////
+// Arduino Bluetooth Interface with Brainsense
+// 
+// This is example code provided by Pantech Prolabs. and is provided
+// license free.
+////////////////////////////////////////////////////////////////////////
+
+#include <boarddefs.h>
+#include <IRremote.h>
+#include <IRremoteInt.h>
+#include <ir_Lego_PF_BitStreamEncoder.h>
+
+IRsend fuck;
+int sensorPin = 12;
+int sensorPinUP = 10;
+int sensorPinDOWN = 9;
+
+#define BAUDRATE 57600
+#define DEBUGOUTPUT 0
+
+
+#define BLUELED1 5
 #define BLUELED2 6
 #define BLUELED3 7
 
